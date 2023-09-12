@@ -15,7 +15,7 @@ class NeonTitleCard(BaseCardType):
 
 
     """Directory where all reference files used by this card are stored"""
-    REF_DIRECTORY = Path(__file__).parent.parent / 'ref' / 'neon'
+    REF_DIRECTORY = Path(__file__).parent.parent / 'ref'
 
     """Characteristics for title splitting by this class"""
     TITLE_CHARACTERISTICS = {
