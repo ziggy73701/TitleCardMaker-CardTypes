@@ -26,7 +26,7 @@ class NeonTitleCard(BaseCardType):
 
     """Characteristics of the default title font"""
     """Default font and text color for episode title text"""
-    TITLE_FONT = str(RemoteFile('Ziggy73701', 'ref/neon/Proxima Nova Regular.otf'))
+    TITLE_FONT = str(RemoteFile('https://github.com/ziggy73701', 'ref/neon/Proxima Nova Regular.otf'))
     TITLE_COLOR = '#FFFFFF'
     FONT_REPLACEMENTS = {
         '[': '(', ']': ')', '(': '[', ')': ']', '―': '-', '…': '...', '“': '"'
@@ -35,7 +35,7 @@ class NeonTitleCard(BaseCardType):
     """Characteristics of the episode text"""
     EPISODE_TEXT_FORMAT = 'EPISODE {episode_number}'
     EPISODE_TEXT_COLOR = 'rgb(163, 163, 163)'
-    TITLE_FONT = str(RemoteFile('Ziggy73701', 'ref/neon/Proxima Nova Regular.otf'))
+    TITLE_FONT = str(RemoteFile('https://github.com/ziggy73701', 'ref/neon/Proxima Nova Regular.otf'))
 
     """Whether this class uses season titles for the purpose of archives"""
     USES_SEASON_TITLE = True
